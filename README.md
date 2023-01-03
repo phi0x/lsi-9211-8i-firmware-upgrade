@@ -81,3 +81,5 @@ Step 5. Flash first card with bios included (don't have to do this if you don't 
 Step 6. Flash all cards with latest firmware ```sas2flash.efi -o -fwall 2118it.bin```
 
 you should now be done!
+
+NOTE: I did not bother adding SAS addresses, which is an extra step. ```sas2flash.efi -o -sasadd 500605b[THE REST OF YOU ADDRESS WITHOUT HYPHENS]```
